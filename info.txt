@@ -1,0 +1,24 @@
+register api:
+
+http://localhost:8080/Fajr_Enterprises/register.php?username=ayesha&password=1234&cdate=2018-9-3
+
+
+update gps location from android:
+
+http://localhost:8080/Fajr_Enterprises/getgps.php/?key=1345&lat=45&lon=55&AUId=2&lup=2018-09-04%2002:04:20
+
+get AUId by username from android:
+
+http://localhost:8080/Fajr_Enterprises/getauid.php?key=1345&username=Adeel
+
+check login from android:
+http://localhost:8080/Fajr_Enterprises/checklogin.php?key=1345&username=Adeel&password=1234
+
+insert coordinates of god in history table of user after every specific time:
+http://localhost:8080/Fajr_Enterprises/inserthistory.php/?key=1345&lat=45&lon=55&username=ayesha222&dt=2018-09-04&tm=02:04:20
+
+insert details
+insertdetails.php?key=1234&auid=1&fname=adeel&lname=khan&address=5-e%20NOrth%20karachi&cellno=94504890&vehicleno=859049&brokerno=8880&cnic=49508940329&pname=asjdkfl&pic=409jkalnocfsd
+
+load details
+loaddetails.php?key=1234&AUId=52
